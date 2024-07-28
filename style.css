@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #39b0e3;
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Navigation list and items */
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff6347;
+}
+
+/* Section styles */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* Styles when scrolled */
+.header.scrolled {
+    background-color: #222;
+}
